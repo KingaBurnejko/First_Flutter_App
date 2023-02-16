@@ -1,16 +1,25 @@
-# flutter_application_1
+# Find Unique Number App
+This is a Flutter app created as part of a recruitment task. The main goal of the app is to detect an "outlier" value in a list of integers.
 
-A new Flutter project.
+The app is built using Flutter and Dart and can be run on both iOS and Android devices.
 
-## Getting Started
+<br />
 
-This project is a starting point for a Flutter application.
+### Task requirements
+Create a Flutter app that takes a comma-separated list of integers as input and finds the outlier integer, which is either the only odd or only even integer in the list. The app should consist of two widgets: an input field and a button labeled "Search", and a display field for the outlier integer.
 
-A few resources to get you started if this is your first Flutter project:
+<br />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
+To run the app, you will need to have Flutter and Dart installed on your computer. You can download them from the official Flutter website.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You will also need an Android or iOS device or an emulator to run the app. You can set up an emulator using Android Studio or Xcode.
+
+Once you have set up your development environment, you can clone this repository and run the app using the following command `flutter run`. This will compile the app and launch it on your connected device or emulator.
+
+<br />
+
+## Usage
+To use the app, simply enter a list of comma-separated integers in the input field and tap the "Wyszukaj" button. The app will then find the unique number in the list and display it on the screen.
+
+If there is no unique number in the list, the app will display an error message. You can then enter a new list of numbers and try again.
